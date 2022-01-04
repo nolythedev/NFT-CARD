@@ -6,19 +6,113 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
-.nft-card {
-    height: 100vh;
-}
 
-.container{
-    background-color: hsl(216, 50%, 16%);
+.nft-card{
+max-width: 1440px;
+max-height: 100%;
+
    
 }
 
-.container div {
-    
-     display: flex;
-    justify-content: center;
+.box {
+    display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    width:300px;
+    height:550px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+
+.information img {
+    width:300px;
+    border-radius: 10px;
+}
+
+.information h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
+.information p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.sub-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-info .eth, 
+.sub-info .days{
+    width: 100%;
+    display: flex;
+    flex: row;
+    align-items: center;
+ 
+}
+
+.sub-info .days{
+    justify-content: flex-end;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    
+
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.eth img,
+.days img {
+    margin-right: 10px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    border-top: 1px solid  hsl(215, 51%, 70%);
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex:0 0 auto;
+    font-size: 14px;
+    
+}
+
+.user img {
+    width: 36px;
+	height: 36px;
+    border: solid 1px;
+    border-color: hsl(0, 0%, 100%);
+    border-radius: 100px;
+    
+}
+
+#one {
+   color: hsl(215, 51%, 70%);
+    margin: 0 5px 0 10px;
+}
+
+
+#two {
+   color: hsl(0, 0%, 100%);
 }
